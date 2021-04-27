@@ -7,13 +7,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnHello"
+        android:id="@+id/btnJava"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="ViewBinding - java"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/btnKotlin"
+        android:layout_width="196dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:text="Viewbinding  - Kotlin"
+        app:layout_constraintStart_toStartOf="@+id/btnJava"
+        app:layout_constraintTop_toBottomOf="@+id/btnJava" />
 </androidx.constraintlayout.widget.ConstraintLayout>
